@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "InstaleerSelenium": ".\\node_modules\\.bin\\selenium-standalone install",
+    "StartSelenium": ".\\node_modules\\.bin\\selenium-standalone start",
+    "Test": ".\\node_modules\\.bin\\codeceptjs run --steps",
+    "NieuweTest":".\\node_modules\\.bin\\codeceptjs gt"
   },
   "author": "",
   "license": "ISC",
