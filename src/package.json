@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "InstaleerSelenium": ".\\node_modules\\.bin\\selenium-standalone install",
+    "InstalleerSelenium": ".\\node_modules\\.bin\\selenium-standalone install",
     "StartSelenium": ".\\node_modules\\.bin\\selenium-standalone start",
     "Test": ".\\node_modules\\.bin\\codeceptjs run --steps",
     "NieuweTest":".\\node_modules\\.bin\\codeceptjs gt"
